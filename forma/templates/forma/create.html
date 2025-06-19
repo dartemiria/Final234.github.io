@@ -1,0 +1,21 @@
+{% extends 'eduprogram/dadada.html' %}
+{% load static %}
+
+{% block title %}Форма для статьи{% endblock %}
+
+{% block content %}
+<div class="features9">
+    <h1>Форма для статьи об ОП</h1>
+    <form method ='post'>
+        {% csrf_token %}
+        {{form.title}}<br>
+        {{form.whatwilllearn}}<br>
+        {{form.whatlearn}}<br>
+        {{form.pros}}<br>
+        {{form.future}}<br>
+        <span>{{ error }}</span>
+
+        <button class = 'btn-success' type="submit">Добавить отзыв</button>
+    </form>
+</div>
+{% endblock %}

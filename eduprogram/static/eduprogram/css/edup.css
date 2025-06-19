@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(73, 143, 255);
+}
+aside {
+    float: left;
+    width: 20%;
+    background-color: rgb(58, 76, 192);
+    padding: 2.5%;
+    height: 500vh;
+    color:rgb(255, 255, 255);
+    border-right: 5px solid #7aceff
+}
+
+aside .logo {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    float: center;
+}
+
+aside img {
+    width: 195px;
+    float: center;
+}
+
+aside h3 {
+    margin-top: 16px;
+    font-size: 34px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul a {
+    text-decoration: none;
+    color: inherit;
+}
+
+aside ul li {
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-top: 15px;
+    transition: all 0.6s;
+    text-align: left;
+    font-size: 20px;
+}
+
+aside ul li:hover,
+aside ul a:hover {
+    color: rgb(215, 57, 255);
+    text-decoration: none;
+    transform: scale(1.07);
+}
+
+.features {
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    text-align: center;
+    width: 70%;
+    transform: translate(70px);
+    font-size: 35px
+}
+
+.features1 {
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    text-align: center;
+    width: 70%;
+    transform: translate(70px);
+    font-size: 20px
+}
+.features1 img {
+    width: 250px;
+    float: center;
+    transform: translate(10px);
+}
+
+.features2 {
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    text-align: center;
+    width: 70%;
+    transform: translate(70px);
+    font-size: 20px
+}
+
+.features3 {
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    text-align: center;
+    width: 70%;
+    transform: translate(70px);
+    font-size: 20px
+}
+.features3 img {
+    width: 250px;
+    float: center;
+    transform: translate(10px);
+}
+
+.features4 {
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    text-align: center;
+    width: 70%;
+    transform: translate(70px);
+    font-size: 20px
+}
+.features4 img {
+    width: 250px;
+    float: center;
+    transform: translate(10px);
+}
+
+.features7 {
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    text-align: center;
+    width: 70%;
+    transform: translate(70px);
+    font-size: 20px
+}
+
+.features9 {
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+    text-align: center;
+    width: 70%;
+    transform: translate(70px);
+    font-size: 20px
+}

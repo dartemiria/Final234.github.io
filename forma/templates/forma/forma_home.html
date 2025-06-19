@@ -1,0 +1,19 @@
+{% extends 'eduprogram/dadada.html' %}
+{% load static %}
+
+{% block title %}Другие ОП{% endblock %}
+
+{% block content %}
+<div class="features7">
+    <h1>Информация о других образовательных программах</h1>
+    {% for el in forma %}
+        <div class="alert alert-warning">
+            <h4><strong>{{ el.title }}</strong></h4>
+            <p><strong>Что буду изучать:</strong> {{ el.whatwilllearn }}</p>
+            <p><strong>Чему научусь:</strong> {{ el.whatlearn }}</p>
+            <p><strong>Преимущества программы:</strong> {{ el.pros }}</p>
+            <p><strong>Перспективы после:</strong> {{ el.future }}</p>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
